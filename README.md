@@ -23,7 +23,11 @@ cb.await()
 cb.await()
 
 // As barrier is reached, thread 1 and thread 2 proceed to perform their duties...
+
 ```
+
+Currently it will work only with C++11 as I have used many beautiful C++11 features. But, soon I hope to
+make it work for previous C++ standards as well (when I get time :):)).
 
 **Below is an example regarding how to use the library**
 
